@@ -6,6 +6,7 @@ around the official Stripe API documentation [website](https://stripe.com/docs/a
 The Stripe Terraform Provider documentation can be found on the Terraform Provider documentation [website](https://registry.terraform.io/providers/lukasaron/stripe/latest).
 
 ## Usage:
+
 ```terraform
 terraform {
   required_providers {
@@ -23,3 +24,5 @@ provider "stripe" {
 ### Environmental variable support
 
 The parameter `api_key` can be omitted when the `STRIPE_API_KEY` environmental variable is present.
+
+### How to Develop
