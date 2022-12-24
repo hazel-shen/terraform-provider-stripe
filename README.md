@@ -10,7 +10,8 @@ The Stripe Terraform Provider documentation can be found on the Terraform Provid
 terraform {
   required_providers {
     stripe = {
-      source = "lukasaron/stripe"
+      source                = "hazel-shen/stripe"
+      version               = "2.0.2"
     }
   }
 }
